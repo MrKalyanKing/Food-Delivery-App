@@ -1,0 +1,80 @@
+
+.Header {
+    background: url('../../assets/frontend_assets/header_img.png') no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 80vh;
+    animation: FadeIn 2s ;
+}
+.header-content{
+    position: absolute;
+    bottom: 10%;
+    margin: 20px;
+}
+.header-content h1{
+    color: white;
+    font-size: 35px;
+    animation: slide 2s ;
+
+}
+.header-content p{
+    color: rgb(66, 135, 219);
+    max-width: 70%;
+    animation: slidey 2s ;
+}
+.Header hr{
+    border: 1px solid black;
+}
+@media (max-width:495px){
+    .Header{
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 8px;
+    }
+    .header-content h1{
+        font-size: 10px;
+        color: white;
+    }
+    .header-content p{
+        display: none;
+        font-size: 5px
+    }
+}
+@media (max-width:550px){
+    .Header{
+        height: 20vh;
+    }
+    .header-content h1{
+        font-size: 10px;
+    }
+    .header-content p{
+        
+        font-size: 5px
+    }
+}
+@media (max-width:750px){
+    .Header{
+        height: 50vh;
+        background-size: cover;
+    }
+    .header-content h1{
+        font-size: 20px;
+    }
+    .header-content p{
+        font-size: 10px;
+    }
+}
+@media (max-width:900px){
+    .Header{
+        height: 70vh;
+        background-size: cover;
+    }
+    .header-content h1{
+        font-size: 25px;
+    }
+    .header-content p{
+        font-size: 18px;
+    }
+}

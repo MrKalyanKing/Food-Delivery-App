@@ -1,0 +1,29 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+body{
+  font-family: "Outfit", sans-serif;
+}
+.app{
+  margin-left:70px ;
+  margin-right: 70px;
+}
+
+@keyframes FadeIn{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+@keyframes slide{
+  0%{
+    transform: translateX(-30px);
+  }
+}
+@keyframes slidey{
+  0%{
+    transform: translateY(-30px);
+  }
+  
+}
