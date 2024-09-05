@@ -4,6 +4,7 @@
     justify-content: space-between;
     background-color: aliceblue;
     cursor: pointer;
+    scroll-behavior: smooth;
 }
 .nav .logo img{
     width: 70%;
@@ -22,13 +23,16 @@
     gap: 30px;
     margin-right: 20px;
 }
-.nav .cart img{
- width: 30%;
+.nav .cart  .searchimg img{
+    width:50%;
 }
 .nav .cart .search{
     display: flex;
     align-items: center;
     gap: 10px;
+}
+.nav .cart .search .immg {
+    width: 100%;
 }
 .nav .cart .search input{
     height: 30px;
@@ -93,8 +97,12 @@
     .nav .cart input{
         display: none;
     }
+    .cart .searchimg img{
+      width: 70%;
+    }
     .nav .cart .search{
         gap:30px;
+        width: 100%;
     }
     
 

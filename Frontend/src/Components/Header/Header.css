@@ -27,7 +27,7 @@
 }
 @media (max-width:495px){
     .Header{
-        height: 100vh;
+        height: 100px;
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -38,8 +38,8 @@
         color: white;
     }
     .header-content p{
-        display: none;
-        font-size: 5px
+        
+        font-size: 2px;
     }
 }
 @media (max-width:550px){

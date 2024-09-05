@@ -8,7 +8,7 @@ const Header = () => {
     <div className='Header' >
         <div className="header-content">
         <h1>Order Your Favourite Food Here</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt quas quam dolores, sapiente optio sunt possimus distinctio tenetur! Animi assumenda eaque in repellat itaque id minima autem nostrum recusandae magnam.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt quas quam dolores, sapiente optio sunt possimus distinctio tenetur! Animi.</p>
         </div>
        
     </div>

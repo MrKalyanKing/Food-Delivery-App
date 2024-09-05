@@ -3,7 +3,7 @@ import './ExploreMenu.css'
 import { menu_list } from '../../assets/frontend_assets/assets'
 const ExploreMenu = ({category,setCategory}) => {
   return (
-    <div className='Explore-menu'>
+    <div className='Explore-menu ' id='Explore-menu'>
         <div className="Explore-menu-content">
         <h2>Explore Menu</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quos commodi iusto repellendus suscipit quidem sit quas delectus ex mollitia assumenda, odit deserunt ipsum, sunt, est nesciunt doloribus dolore impedit!</p>

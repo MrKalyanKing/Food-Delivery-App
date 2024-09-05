@@ -1,0 +1,82 @@
+.cart{
+    
+}
+.cart-items-title{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr 0.5fr;
+    align-items: center;
+    margin-top: 20px;
+    color: grey;
+}
+.cart-items-item img{
+ width: 50%;
+}
+.cart-items-item {
+    color: black;
+}
+.cart-items-item .cross{
+    cursor: pointer;
+}
+
+/* Cart Total */
+.cart-bottom {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.cart-total-details{
+    display: flex;
+    justify-content: space-between;
+    width: 80vh ;
+}
+.cart-total-button button{
+    margin-top: 20px;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    height: 7vh;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+.promocode input{
+    width: 50vh;
+    height: 7vh;
+    border: transparent;
+    background-color: rgb(195, 185, 185);
+    border-radius: 8px;
+    outline: none;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius:0px ;
+}
+.promocode button{
+    outline: none;
+    border: none;
+    height: 7.5vh;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    left: 150px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+@media (max-width:750px){
+ .cart .cart-bottom{
+    flex-direction: column-reverse;
+ }
+ .cart-total .cart-total-details{
+    width: 40vh;
+ }
+ .promocode {
+    justify-content: start;
+ }
+ .promocode input{
+    width: 30vh;
+    height: 5vh;
+ }
+ .promocode button{
+    height: 5vh;
+ }
+
+}

@@ -24,9 +24,11 @@ border-radius: 50%;
 @media (max-width:450px){
     .Explore-menu-content p{
         font-size: 12px;
+        margin-left: 4px;
     }
     .Explore-menu-content h1{
         font-size: 10px;
+        margin-left: 4px;
     }
     .food-items .info{
         width: 60%;
