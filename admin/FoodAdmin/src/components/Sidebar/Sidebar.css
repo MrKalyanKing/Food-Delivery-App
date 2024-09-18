@@ -1,0 +1,19 @@
+.sidebar-option{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 3px 0px 0px 3px;
+    padding: 10px;
+    margin: 20px;
+}
+.sidebar-options{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 30px;
+}
+.sidebar{
+    display: flex; 
+}
+.sidebar hr{
+    height: 100vh;
+}
